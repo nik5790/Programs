@@ -18,11 +18,17 @@ public class Class1 {
 		c = a - b;
 		System.out.println("subtraction of number is   " + c);
 	}
+	
+	public void multiply() {
+		c = a * b;
+		System.out.println("multiply of number is   " + c);
+	}
 
 	public static void main(String[] args) {
 		Class1 c1 = new Class1(15, 10);
 		c1.add();
 		c1.subtract();
+		c1.multiply();
 	}
 
 }
